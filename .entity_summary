@@ -1,0 +1,5 @@
+- Hunde (hunde): hundename[string/text], rasse[string/text], geburtsdatum[date/date], geschlecht[lookup/radio], bemerkungen[string/textarea], halter_vorname[string/text], halter_nachname[string/text], halter_email[string/email], halter_telefon[string/tel]
+- Kurse (kurse): kurstitel[string/text], kursart[lookup/select], beschreibung[string/textarea], trainer_vorname[string/text], trainer_nachname[string/text], termin[date/datetimeminute], ort[string/text], preis[number], max_teilnehmer[number]
+- Anmeldungen (anmeldungen): hund[applookup/select], kurs[applookup/select], anmeldedatum[date/date], status[lookup/select], bemerkung[string/textarea]
+  → hund links to app_id 6ac12635a44e7aab02993854
+  → kurs links to app_id 6ac1263994bc7391fd55f8aa
